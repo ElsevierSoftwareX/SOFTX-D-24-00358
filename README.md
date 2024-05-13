@@ -15,7 +15,7 @@
 #                                                                    #
 ######################################################################
 
-ESCAPy works whit MNA (Modify Nodal Analisys) theory and MNA is a formulation 
+E2SCAPy works whit MNA (Modify Nodal Analisys) theory and MNA is a formulation 
 used for electrical circuit and all theory was obteined for Mourad Fakhfakh,
 Esteban Tlelo Cuautle Francisco V. Fernandez and other authors and MNA gets an
 algebraic system by the way Ax = z where A is a square matrix, x is incognigts 
@@ -78,7 +78,7 @@ DDD works whit symengine is fast and also DDD works better.
 you can have an output in latex way or simple aoutput, and also you can have an estetic output, depend of 
 size circuit, and oviously output size.
 
->> 4.- instructions for use ESCAPy:
+>> 4.- instructions for use E2SCAPy:
 
 you can use this repository or simple install library by pip, 
 
