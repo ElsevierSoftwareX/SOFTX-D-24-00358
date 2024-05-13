@@ -1,5 +1,5 @@
-# Hi welcome to ESCAPy V 0.1
-# ESCAPy is : Electronic Symbolic Circuit Analisys on Python
+# Hi welcome to E2SCAPy V 0.1
+# E2SCAPy is : Electronic Symbolic Circuit Analisys on Python
 #
 # here you can understand how to use this library...
 
@@ -10,7 +10,7 @@
 ######################################################################
 #                                                                    #
 #                                                                    #
-#                    ESCAPy is simple and powerfull                  #
+#                    E2SCAPy is simple and powerfull                  #
 #                                                                    #
 #                                                                    #
 ######################################################################
@@ -98,24 +98,24 @@ do a netlist, import escapy and put netlist name and extension let me show you:
 
 
 >>
-	import escapy #we import escapy
-	escapy.MNAf('3_OpAmps.cir')
+	import e2scapy #we import escapy
+	e2scapy.MNAf('3_OpAmps.cir')
 
-	A,x,z = escapy.formula_DDD()
-	Xout = escapy.resuelve_serie_DDD(A,x,z)
-	x_out = escapy.simplifica(Xout)
+	A,x,z = e2scapy.formula_DDD()
+	Xout = e2scapy.resuelve_serie_DDD(A,x,z)
+	x_out = e2scapy.simplifica(Xout)
 
 
 
 and if you prefer use an sympy method:
 
 >>
-	import escapy #we import escapy
-	escapy.MNAf('3_OpAmps.cir')
+	import e2scapy #we import e2scapy
+	e2scapy.MNAf('3_OpAmps.cir')
 
-	A,x,z = escapy.formula_sympy()
-	Xout = escapy.resuelve_LU(A,x,z)
-	x_out = escapy.simplifica(X1)
+	A,x,z = e2scapy.formula_sympy()
+	Xout = e2scapy.resuelve_LU(A,x,z)
+	x_out = e2scapy.simplifica(X1)
 
 finaly in terminal you can write:
 
